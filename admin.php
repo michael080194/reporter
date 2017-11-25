@@ -1,7 +1,7 @@
 <?php
 require "loginheader.php";
 require_once 'header.php';
-$page_title = '管理頁面'; //
+$page_title = '管理頁面'; // test
 
 $op = isset($_REQUEST['op']) ? filter_var($_REQUEST['op']) : '';
 $sn = isset($_REQUEST['sn']) ? (int) $_REQUEST['sn'] : 0;
